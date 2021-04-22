@@ -24,12 +24,12 @@ requirements:
     - emoji
     - ftfy >=6.0
     - python >=3.5,<3.9
-    - unicodedata
+    - unicode
 
 test:
   imports:
     - cleantext
-    - unicodedata
+    - unicode
   commands:
     - pip check
   requires:
