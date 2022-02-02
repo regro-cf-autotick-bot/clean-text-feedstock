@@ -1,5 +1,5 @@
 {% set name = "clean-text" %}
-{% set version = "0.3.0" %}
+{% set version = "0.6.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/clean-text-{{ version }}.tar.gz
-  sha256: 648de7c65d474c65c36ec7d1f19e815c942d67bde2db4894d3930afb75da769e
+  sha256: 8374b385fc2a26e06383f62aed076fa6be115e5832239e2a7fd8b344fa8d2ab2
 
 build:
   number: 0
